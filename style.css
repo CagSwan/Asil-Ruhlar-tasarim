@@ -1,0 +1,180 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #c70f0f;
+}
+
+a {
+    text-decoration: none;
+}
+
+.solLayout {
+    width: 450px;
+    height: 1000px;
+    background-color: #990909;
+    position: fixed;
+}
+
+#img-ayyildiz {
+    width: 112px;
+    height: 82px;
+    float: left;
+    margin: 20px;
+}
+
+.sol-text {
+    font-size: 27px;
+    margin-left: 20px;
+    color: #ffffff;
+    transition: box-shadow .3s;
+}
+
+.sol-text:hover {
+    box-shadow: 0 0 11px #680101; 
+}
+
+
+
+
+/*----------------*/
+
+
+
+
+.sagLayout {
+    float: right;
+    width: 1470px;
+    height: 3000px;
+    background-color: rgb(218, 19, 19);
+}
+
+#logo {
+    float: right;
+    margin-right: 530px;
+}
+
+#baseZone {
+    color: #ffffff;
+    font-size: 35px;
+    float: right;
+}
+
+#hakkimizda-page {
+    margin-right: 350px;
+}
+
+#sehitler-header {
+    font-family: 'Times New Roman', Times, serif;
+    margin-right: 500px;
+    float: right;
+}
+
+#sehit-tarih {
+    font-family: Arial, Helvetica, sans-serif; 
+    float: left;
+    font-size: 20px;
+    margin-right: 1200px;
+}
+
+#orhan-mutlu-foto {
+    width: 400px;
+    height: 400px;
+    float: left;
+    margin-left: 0px;
+}
+
+#sehit-bilgi {
+    padding-top: 100px;
+    font-size: 20px;
+    float: right;
+    margin-right: 500px;
+}
+
+
+
+
+.slideshow-container {
+    position: relative;
+    max-width: 800px;
+    margin-right: 500px;
+  }
+  
+  .slide {
+    display: none;
+  }
+  
+  .fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @keyframes fade {
+    from {
+      opacity: 0.4;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+  }
+  
+  .prev {
+    left: 0;
+  }
+  
+  .next {
+    right: 0;
+  }
+  
+  .prev:hover, .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  
+.sozluk-foto {
+  width: 600px;
+  height: 600px;
+}
+
+
+/*----------*/
+
+#insta-logo {
+  float: left;
+  width: 300px;
+  height: 300px;
+  margin-right: 50px;
+  transition: transform 0.3s ease;
+}
+
+#x-logo {
+  float: right;
+  width: 300px;
+  height: 300px;
+  margin-right: 480px;
+  transition: transform 0.3s ease;
+}
+
+#insta-logo:hover{
+  transform: scale(1.1);
+}
+
+#x-logo:hover {
+  transform: scale(1.1);
+}
